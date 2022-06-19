@@ -1,8 +1,8 @@
 def palindromo(frase):
     frase = frase.replace(' ', '')
     frase = frase.lower()
-    frase_invertidad =  frase[::-1]
-    if frase == frase_invertidad:
+    frase_invertida =  frase[::-1]
+    if frase == frase_invertida:
         return True
     else:
         return False
